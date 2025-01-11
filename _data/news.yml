@@ -1,26 +1,30 @@
 # For now, the news list should be sorted manually
 news:
-  - title: News Title 6
+  - title: Professor M. Dalla Mura and M. Muller are visiting the Universidad Industrial de Santander, Colombia, Japan for two weeks for scientific collaborations.
     date: Nov 2024
     link: /news/
 
-  - title: News Title 5
+  - title: We published a tutorial in the conference IEEE IGARSS 2024, which takes place in Athens, Greece. The tutorial will be presented by D. Picone and Professor M. Dalla Mura.
     date: Jul 2024
-    link: https://www.example.com
+    link: https://www.2024.ieeeigarss.org/tutorials.php#tut12
 
-  - title: News Title 4
+  - title: We published a paper in the conference IEEE IGARSS 2024, which takes place in Athens, Greece.
+    date: Jul 2024
+    link: https://ieeexplore.ieee.org/abstract/document/10642783
+
+  - title: We published a paper in the conference IEEE ICASSP 2024, which takes place in Seoul, South Korea.
     date: Apr 2024
-    link: /news/
-    
-  - title: News Title 3
-    date: Dec 2023
-    link: /news/
+    link: https://ieeexplore.ieee.org/abstract/document/10447567
 
-  - title: News Title 2
+  - title: M. Jouni and D. Picone are visiting the Institute of Science Tokyo, Japan for two months (July - August) for scientific collaborations.
     date: Jul 2023
     link: /news/
 
-  - title: News Title 1
+  - title: We published a paper in the conference IEEE ICASSP 2023, which takes place in Rhodes, Greece.
     date: Jun 2023
-    link: /news/
+    link: https://ieeexplore.ieee.org/abstract/document/10096543
+    
+  - title: The project kicked off.
+    date: Jun 2021
+    link: https://anr.fr/en/funded-projects-and-impact/funded-projects/project/funded/project/b2d9d3668f92a3b9fbbf7866072501ef-04f0d2e3a2/?tx_anrprojects_funded%5Bcontroller%5D=Funded&cHash=2daf85ff85f371561fd49cfae1ad247d
     

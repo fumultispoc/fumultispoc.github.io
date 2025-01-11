@@ -4,11 +4,11 @@
 # Any modification on this file requires building again (via jekyll build or jekyll serve).
 
 # SEO-related fields
-title: Scientific Research and Development Group
+title: Fusion Multispectral-ImSPOC
 description: >-
-  Developing novel approaches.
-author: Mohamad Jouni
-url: "mhmdjouni.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+  Fusion Multispectral-ImSPOC (FuMultiSPOC) website.
+author: FuMultiSPOC
+url: "fumultispoc.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 
 # Build settings

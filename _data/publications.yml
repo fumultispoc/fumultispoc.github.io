@@ -1,7 +1,18 @@
 authors:
-  - &author1 A. Author
-  - &author2 B. Buthor
-  - &author3 C. Cuthor
+  - &dallamum M. Dalla Mura
+  - &jounim M. Jouni
+  - &piconed D. Picone
+
+venues:
+  - &arxiv
+    title: arXiv
+    abbrv: preprint
+  - &icassp
+    title: IEEE International Conference on Acoustics, Speech, and Signal Processing
+    abbrv: ICASSP
+  - &igarss
+    title: IEEE International Geoscience and Remote Sensing Symposium
+    abbrv: IGARSS
 
 types:
   - &journal
@@ -17,17 +28,6 @@ types:
     name: Preprint
     code: P
 
-venues:
-  - &arxiv
-    title: arXiv
-    abbrv: preprint
-  - &jsrd
-    title: JJJJ Journal of Science, Research and Development
-    abbrv: JSRD
-  - &csrd
-    title: CCCC Conference of Science, Research and Development
-    abbrv: CSRD
-
 link_icons:
   - &ic-link fas fa-link
   - &ic-download fas fa-download
@@ -37,72 +37,19 @@ link_icons:
   - &ic-ppt fas fa-file-powerpoint
   - &ic-book fas fa-book
 
-full_publications_link: https://example.com
+full_publications_link: 
 
 publications:
-  - key: key1
-    date: "20241001"
-    year: "2024"
-    title: "Title 1"
-    authors:
-      - *author1
-      - *author2
-      - *author3
-    type: *preprint
-    venue: *arxiv
-    links:
-      - type: BibTex
-        icon: *ic-download
-        link: /assets/publications/key1/file.bib
-
-      - type: arXiv
-        icon: *ic-link
-        link: https://arxiv.org/
-
-      - type: Code
-        icon: *ic-code
-        link: https://github.com/
-
   - key: key2
-    date: "20230901"
-    year: "2023"
-    title: "Title 2"
+    date: "20240905"
+    year: "2024"
+    title: "A Study on Combining a Multi-Aperture Interferometric Imaging Spectrometer with a Multispectral Camera"
     authors:
-      - *author1
-      - *author3
-      - D. Duthor
-      - E. Euthor
-    type: *journal
-    venue: *jsrd
-    links:
-      - type: BibTex
-        icon: *ic-download
-        link: /assets/publications/key2/file.bib
-
-      - type: Paper
-        icon: *ic-link
-        link: https://ieeexplore.ieee.org/Xplore/home.jsp
-
-      - type: PDF
-        icon: *ic-pdf
-        link: /assets/publications/key2/file.pdf
-
-      - type: Code
-        icon: *ic-code
-        link: https://github.com/
-
-  - key: key3
-    date: "20230601"
-    year: "2023"
-    title: "Title 3"
-    authors:
-      - *author2
-      - F. Futhor
-      - *author3
-      - G. Guthor
-      - H. Huthor
+      - *piconed
+      - *jounim
+      - *dallamum
     type: *conference
-    venue: *csrd
+    venue: *igarss
     links:
       - type: BibTex
         icon: *ic-download
@@ -110,11 +57,7 @@ publications:
 
       - type: Paper
         icon: *ic-link
-        link: https://ieeexplore.ieee.org/Xplore/home.jsp
-
-      - type: PDF
-        icon: *ic-pdf
-        link: /assets/publications/key3/file.pdf
+        link: https://ieeexplore.ieee.org/abstract/document/10642783
 
       - type: Slides
         icon: *ic-ppt
@@ -124,35 +67,86 @@ publications:
         icon: *ic-code
         link: https://github.com/
 
-      - type: Video
-        icon: *ic-video
-        link: https://youtube.com/
-
-  - key: key4
-    date: "20210201"
-    year: "2021"
-    title: "Title 4"
+  - key: key1
+    date: "20241001"
+    year: "2024"
+    title: "Multiple-beam Interference Spectroscopy: Instrument Analysis and Spectrum Reconstruction"
     authors:
-      - *author1
-    type: *thesis
-    venue:
-      title: PhD Thesis
+      - *jounim
+      - *piconed
+      - *dallamum
+    type: *preprint
+    venue: *arxiv
     links:
       - type: BibTex
         icon: *ic-download
-        link: /assets/publications/key4/file.bib
+        link: /assets/publications/key1/file.bib
 
-      - type: Manuscript
+      - type: Paper
         icon: *ic-link
-        link: https://theses.hal.science/
+        link: https://arxiv.org/abs/2410.21586
 
-      - type: PDF
-        icon: *ic-book
-        link: /assets/publications/key4/file.pdf
+      - type: Poster
+        icon: *ic-link
+        link: https://hal.science/hal-04302003/document
 
-      - type: Slides
+      - type: Code
+        icon: *ic-code
+        link: https://github.com/mhmdjouni/inverspyctrometry
+
+  - key: key3
+    date: "20240318"
+    year: "2024"
+    title: "Spectro-Spatial Hyperspectral Image Reconstruction From Interferometric Acquisitions"
+    authors:
+      - *piconed
+      - *jounim
+      - *dallamum
+    type: *conference
+    venue: *icassp
+    links:
+      - type: BibTex
+        icon: *ic-download
+        link: /assets/publications/key3/file.bib
+
+      - type: Paper
+        icon: *ic-link
+        link: https://ieeexplore.ieee.org/abstract/document/10447567
+
+      - type: Poster
         icon: *ic-ppt
-        link: /assets/publications/key4/slides.pdf
+        link: /assets/publications/key3/poster.pdf
+
+      - type: Code
+        icon: *ic-code
+        link: https://github.com/
+
+  - key: key4
+    date: "20230505"
+    year: "2023"
+    title: "Model-Based Spectral Reconstruction Of Interferometric Acquisitions"
+    authors:
+      - *jounim
+      - *piconed
+      - *dallamum
+    type: *conference
+    venue: *icassp
+    links:
+      - type: BibTex
+        icon: *ic-download
+        link: /assets/publications/key3/file.bib
+
+      - type: Paper
+        icon: *ic-link
+        link: https://ieeexplore.ieee.org/abstract/document/10096543
+
+      - type: Poster
+        icon: *ic-ppt
+        link: https://hal.science/hal-04302003/document
+
+      - type: Code
+        icon: *ic-code
+        link: https://github.com/
 
       - type: Video
         icon: *ic-video

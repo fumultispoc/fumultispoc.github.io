@@ -1,44 +1,48 @@
 name:
-  long: Scientific Research and Development
-  short: Scientific R&D
-  abbrv: SRD
-  lower: srd
-  full: Scientific Research and Development (SRD)
-  append: Group
-  title: SRD Group
+  long: Fusion Multispectral-ImSPOC
+  abbrv: FuMultiSPOC
+  append: Project
+
+title: FuMultiSPOC
 
 affiliations:
-  si1:
-    name: Sample Institution 1
-    abbrv: SI1
-    link: https://example.com
-  si2:
-    name: Sample Institution 2
-    abbrv: SI2
-    link: https://example.com
+  anr:
+    name: Agence Nationale de la Recherche
+    abbrv: ANR
+    link: https://anr.fr/en/funded-projects-and-impact/funded-projects/project/funded/project/b2d9d3668f92a3b9fbbf7866072501ef-04f0d2e3a2/?tx_anrprojects_funded%5Bcontroller%5D=Funded&cHash=2daf85ff85f371561fd49cfae1ad247d
+  uga:
+    name: Université Grenoble Alpes
+    abbrv: UGA
+    link: https://www.univ-grenoble-alpes.fr/
+  ginp:
+    name: Grenoble Institute of Technology
+    abbrv: Grenoble INP
+    link: https://www.grenoble-inp.fr/
+  gipsa:
+    name: Grenoble Images Parole Signal Automatique Laboratory
+    abbrv: GIPSA-Lab
+    link: https://www.gipsa-lab.grenoble-inp.fr/
 
 description: >-
-  The Scientific Research and Development (SRD) Group aims at developing
-    novel scientific approaches for different applications.
+  The Fusion Multispectral-ImSPOC (FuMultiSPOC) Project
+    aims to design an innovative multi-sensor hyperspectral imaging system
+    for generating images with very high spectral and spatial resolution.
 
 contact:
-  email: srd-group [at] example.com
+  email: mauro.dalla-mura [at] example.com
   phone: "+00 (XX) AA BB CC DD"
 
 address:
-  building: "Building B"
-  street: "Street S"
-  city: "0000 City C"
-  country: "Country"
-  maps_link: https://www.google.com/maps
+  building: "GIPSA-Lab"
+  street: "11 rue des mathématiques"
+  city: "38400 Saint Martin d'Hères"
+  country: "France"
+  maps_link: https://maps.app.goo.gl/FBrCy3UUoeGah3Cx7
 
 social:
   GitHub:
-    link: https://github.com/mhmdjouni
+    link: https://github.com/fumultispoc
     icon: fab fa-fw fa-github
-  X (Twitter):
-    link: https://x.com/mhmdjouni
-    icon: fab fa-fw fa-x-twitter
 
 images_dirs:
   root: images

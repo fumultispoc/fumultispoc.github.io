@@ -22,16 +22,17 @@ permalink: /publications/
 {% if pubs == empty or pubs == nil %}
   <p>No publications yet under this project.</p>
 {% else %}
-    {% assign pubs_grouped = pubs | sort: "date" | reverse | group_by: "year" %}
+
+    {% assign pubs_grouped = pubs | group_by: "year" %}
     <div>
     {% for pubs_year in pubs_grouped %}
         {% assign year = pubs_year.name %}
-        {% assign pubs = pubs_year.items %}
+        {% assign pubs_sorted = pubs_year.items | sort: "date" | reverse %}
         <div class="publication-year-container">
             <div class="year-header">
                 {{ year }}
             </div>
-            {% for pub in pubs %}
+            {% for pub in pubs_sorted %}
                 <div class="publication-item">
                     <div class="publication-title">
                         {{ pub.title }}

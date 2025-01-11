@@ -1,10 +1,9 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
 title: Home
 permalink: /
+proj_name: functions/project_name
+affiliation: functions/affiliations/link.html
 ---
 
 {%- assign general = site.data.general -%}
@@ -12,11 +11,10 @@ permalink: /
 {%- assign affiliations = general.affiliations -%}
 
 <p>
-    The {{ proj_name.full }} {{ proj_name.append }} is affiliated with
-    the <a href="{{- affiliations.si1.link -}}">{{ affiliations.si1.name }} ({{affiliations.si1.abbrv}})</a>
+    The {% include {{ page.proj_name }}/append.html %} is affiliated with
+    the {% include {{ page.affiliation }} key="anr" %}
     and
-    the <a href="{{- affiliations.si2.link -}}">{{ affiliations.si2.name }} ({{affiliations.si2.abbrv}})</a>.
-    It is funded by the {{ affiliations.si2.abbrv }}.
+    the {% include {{ page.affiliation }} key="gipsa" %}.
 </p>
 
 <h1>Research</h1>
